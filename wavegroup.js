@@ -17,7 +17,7 @@ export class WaveGroup {
                 this.totalPoints,
                 this.color[i],
             );
-            this.waves = [i] = wave;
+            this.waves[i] = wave;
         }   
     }
 
